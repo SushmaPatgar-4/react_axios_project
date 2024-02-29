@@ -8,7 +8,7 @@ import Student from './Request/Student.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <App /> */}
-    <User/>
-    {/* <Student/> */}
+    {/* <User/> */}
+    <Student/>
   </React.StrictMode>,
 )
