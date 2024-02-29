@@ -5,13 +5,15 @@ import ReactDOM from 'react-dom/client'
 // import User from './Request/User.jsx'
 // import Student from './Request/Student.jsx'
 import Fake from './Request/Fake.jsx'
+import HelloWorld from './Request/HelloWorld.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <User/> */}
     {/* <Student/> */}
-    <Fake/>
+    {/* <Fake/> */}
+    <HelloWorld/>
 
   </React.StrictMode>,
 )
