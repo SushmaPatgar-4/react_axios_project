@@ -1,0 +1,28 @@
+*{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.App{
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+table{
+    border: 1px solid blue;
+    align-items: center;
+    justify-content: center;
+    
+}
+td{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+    }

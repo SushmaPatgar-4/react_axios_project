@@ -1,0 +1,69 @@
+.App{
+    border: 1px solid black;
+    
+}
+h1{
+    text-align: center;
+    color: red;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+.Grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin: 10px;
+}
+.card{
+    border: 1px solid black;
+}
+
+
+
+
+
+/* .head{
+    border: 1px solid black;
+    display: grid;
+    /* grid-template-columns:10% 40% 50% ; */
+    /* text-align: center;
+    height: 40px;
+    justify-content: center;
+    color :Blue;
+    font-weight: bold;
+}
+.head .d1{
+    border: 1px solid black;
+}
+.head .d2{
+    border: 1px solid black;
+}
+.head .d3{
+    border: 1px solid black;
+} */ 
+/* .dBody{
+    border: 1px solid black;
+    /* display: grid;
+    grid-template-columns: 100%; */
+    /* display: grid; */
+    /* grid-template-columns: auto auto  auto;
+}
+.dBody .bdy{
+    border: 1px solid rgb(17, 0, 0);
+    display: grid;
+    grid-template-columns: auto auto ;
+} */ 
+/* .dBody .bdy .b1{
+    border: 1px solid rgb(0, 0, 0);
+    justify-content: center;
+    text-align: center;
+} */
+/* .dBody .bdy .b1{
+    font-weight: bold;
+    /* border: 1px solid rgb(0, 0, 0); */
+/* } */ 
+/* .dBody .bdy .b2{
+    /* border: 1px solid rgb(0, 0, 0); */
+/* } */ 
