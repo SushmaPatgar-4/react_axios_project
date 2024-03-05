@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './Style.css'
-import {Table} from 'bootstrap'
+import './style.css'
 
 function DTable() {
   const [data, setData] = useState([]);
