@@ -12,14 +12,13 @@ export default function Update() {
   //     console(response.data);
   //   });
   // }, []);
-
+const updatedData = {
+  name: 'Hima',
+ 
+}
   function updatePost() {
     axios
-      .put(`https://dummy.restapiexample.com/public/api/v1/update/24`, {
-       name : "Khan" , 
-       salary: 14000,
-       age : 40 
-      })
+      .patch(`https://dummy.restapiexample.com/public/api/v1/update/22`, updatedData)
       .then((response) => {
         console.log(response.data);
       });

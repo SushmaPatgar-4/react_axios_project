@@ -5,14 +5,13 @@ function Put() {
     const [post , setPost] = useState(null)
     React.useEffect((e) => {
         axios.get(`https://jsonplaceholder.typicode.com/posts`).then((response) => {
-          console.log(response.data);
+          setPost(response.data);
         });
       }, []);
       function updatePost() {
         axios
-          .put(`https://jsonplaceholder.typicode.com/posts/1`, {
-            title: "Hello World!",
-            body: "This is an updated post."
+          .patch(`https://jsonplaceholder.typicode.com/posts/1`, {
+            title: "Hello World!!",
           })
           .then((response) => {
             console.log(response.data);
